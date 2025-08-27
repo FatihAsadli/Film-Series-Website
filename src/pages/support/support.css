@@ -1,0 +1,148 @@
+.page-main {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin: 0px 162px;
+}
+
+.support-contact {
+  display: flex;
+  gap: 80px;
+  width: 100%;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-weight: var(--fw-400);
+  font-size: 18px;
+  color: #999999;
+}
+
+.welcome .head {
+  margin-bottom: 50px;
+}
+.welcome-img img {
+  border: 6px solid #262626;
+  border-radius: 6px;
+}
+
+.welcome-form {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'fname lname'
+    'email number'
+    'message message'
+    'check-box check-box';
+  padding: 50px;
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  border: 1px solid #262626;
+  gap: 50px;
+}
+
+.inp-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.welcome-form label {
+  font-size: 18px;
+  font-weight: var(--fw-600);
+}
+
+.welcome-form input,
+textarea {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  color: #999999;
+  outline: none;
+}
+
+.fname {
+  grid-area: fname;
+}
+
+.lname {
+  grid-area: lname;
+}
+
+.email {
+  grid-area: email;
+}
+
+.number {
+  grid-area: number;
+}
+
+.message {
+  grid-area: message;
+}
+
+.message textarea {
+  max-width: 100%;
+}
+
+.check-box {
+  grid-area: check-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox-div {
+  display: flex;
+  gap: 10px;
+}
+
+.check-box button {
+  padding: 18px 24px;
+  border-radius: 8px;
+  background-color: #e50000;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: var(--fw-600);
+  border: none;
+}
+
+.check {
+  width: 28px;
+  border-radius: 4px;
+  accent-color: #222121;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type="number"] {
+-moz-appearance: textfield;
+}
+

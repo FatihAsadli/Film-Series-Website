@@ -1,0 +1,142 @@
+.page-main {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.header-top {
+  background: url('../../assets/Sub Container.png'),
+    linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 860px;
+}
+
+body {
+  background-color: #141414;
+}
+
+.header-content {
+  text-align: center;
+  margin: 0 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-content h1 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.header-content .mhead {
+  gap: 14px;
+  margin-bottom: none;
+  flex-direction: column;
+}
+
+.header-content button {
+  display: flex;
+  gap: 8px;
+  background-color: #e50000;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.header-content button a {
+  font-weight: var(--fw-600);
+  font-size: 18px;
+}
+
+.header-content button svg {
+  width: 14px;
+}
+
+.card-mover {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: #0f0f0f;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  gap: 16px;
+}
+
+.card-mover button {
+  display: flex;
+  padding: 14px;
+  border: 1px solid #1f1f1f;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-mover button svg {
+  width: 17px;
+}
+
+.card-mover .order {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.card-mover .order hr:first-child {
+  width: 23px;
+  background-color: #e50000;
+}
+
+.card-mover .order hr {
+  width: 17px;
+  height: 4px;
+  border-radius: 100px;
+  border: none;
+  background-color: #333333;
+}
+
+.fc-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.fc-card {
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+}
+
+.fc-go {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fc-go svg {
+  cursor: pointer;
+}
+
+.fc-go h4 {
+  font-size: 18px;
+  font-weight: var(--fw-600);
+}
+
+.fc-go svg {
+  width: 18px;
+}
+
+.sect4 .mhead {
+  align-items: end;
+}
+
+.sect4 .text-head {
+  margin-bottom: 0px;
+}
+
+.p-390 {
+    display: none;
+}

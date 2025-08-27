@@ -1,0 +1,56 @@
+.page-main {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.movie-all {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.seasons-episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: var(--fw-600);
+  color: var(--white);
+}
+
+.current-season {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bg {
+  padding: 24px 50px;
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  border: 1px solid #262626;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+
+
